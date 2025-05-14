@@ -1,0 +1,21 @@
+
+digraph Artificial_Intelligence {
+    node [shape=circle, style=filled, fillcolor="#3498db"];
+    edge [style=solid];
+
+    AI [label="Artificial Intelligence"];
+    Machine_Learning [label="Machine Learning"];
+    Deep_Learning [label="Deep Learning"];
+    Natural_Language_Processing [label="Natural Language Processing"];
+    Computer_Vision [label="Computer Vision"];
+    Robotics [label="Robotics"];
+    Expert_Systems [label="Expert Systems"];
+
+    AI -> Machine_Learning;
+    AI -> Natural_Language_Processing;
+    AI -> Computer_Vision;
+    AI -> Robotics;
+    AI -> Expert_Systems;
+
+    Machine_Learning -> Deep_Learning;
+}
